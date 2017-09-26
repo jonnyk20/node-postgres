@@ -22,11 +22,11 @@ client.connect((err) => {
       return console.error("error running query", err);
     }
     console.log(`Found ${result.rows.length} person(s) by the name ${input}:`)
+    let i = 1;
     for (const entry of result.rows) {
       // find out how to acccess index in for/of loop to add numerator
-      console.log(`- ${entry.first_name}  ${entry.last_name}, born ${entry.birthdate}`)
+      console.log(`${i++} - ${entry.first_name}  ${entry.last_name}, born ${entry.birthdate}`)
     }
-
     client.end();
   });
 });
