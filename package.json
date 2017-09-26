@@ -1,0 +1,22 @@
+{
+  "name": "node-postgres",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jonnyk20/node-postgres.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jonnyk20/node-postgres/issues"
+  },
+  "homepage": "https://github.com/jonnyk20/node-postgres#readme",
+  "dependencies": {
+    "pg": "^7.3.0"
+  }
+}
